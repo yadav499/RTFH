@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundiiii"
+    tools:context=".twelvth_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgroundiiii">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abril_fatface"
+                android:text="YOGA"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="166dp"
+                android:layout_height="101dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1"
+                app:srcCompat="@drawable/img" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="170dp"
+                android:layout_height="126dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView"
+                app:srcCompat="@drawable/img_1" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="170dp"
+                android:layout_height="103dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView3"
+                app:srcCompat="@drawable/img_2" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="187dp"
+                android:layout_height="104dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView4"
+                app:srcCompat="@drawable/img_3" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="170dp"
+                android:layout_height="96dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView5"
+                app:srcCompat="@drawable/img_4" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="170dp"
+                android:layout_height="122dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView6"
+                app:srcCompat="@drawable/img_5" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="24dp"
+                android:paddingLeft="60dp"
+                android:text="Tree Pose"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="2 Minutes"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView"
+                app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="60dp"
+                android:text="Crescent Pose"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView3"
+                app:layout_constraintTop_toBottomOf="@id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="3 Minutes"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView3"
+                app:layout_constraintTop_toBottomOf="@id/tv4" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="60dp"
+                android:text="Camel Pose"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView4"
+                app:layout_constraintTop_toBottomOf="@id/tv5" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="2 Minutes"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView4"
+                app:layout_constraintTop_toBottomOf="@id/tv6" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:paddingLeft="10dp"
+                android:text="One legged king pigeon"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView5"
+                app:layout_constraintTop_toBottomOf="@id/tv7" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80dp"
+                android:text="2 Minutes"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView6"
+                app:layout_constraintTop_toBottomOf="@id/tv8" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="70dp"
+                android:text="Easy pose"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView8"
+                app:layout_constraintTop_toBottomOf="@id/tv9" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70dp"
+                android:text="5 Minutes"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView8"
+                app:layout_constraintTop_toBottomOf="@id/tv10" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:paddingLeft="60dp"
+                android:text="Boat pose"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView8"
+                app:layout_constraintTop_toBottomOf="@id/tv11" />
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="3 Minutes"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView8"
+                app:layout_constraintTop_toBottomOf="@id/tv12" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

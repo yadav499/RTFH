@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tenth_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text=" Self-care"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="  * Isolate yourself in a well ventilated room.\n\n
+ * Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.\n\n
+ * Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite.\n\n
+ * Take rest and drink a lot of fluids to maintain adequate hydration.\n\n
+ * Follow respiratory etiquettes at all times.\n\n
+ * Frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer.\n\n
+ * Don’t share personal items with other people in the household.\n\n
+ * Ensure cleaning of surfaces in the room that are touched often (tabletops, doorknobs, handles, etc.) with 1% hypochlorite solution.\n\n
+ * Monitor temperature daily.\n\n
+ * Monitor oxygen saturation with a pulse oximeter daily.\n\n
+ * Connect with the treating physician promptly if any deterioration of symptoms is noticed.\n\n
+    "
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text="  Instructions for caregivers:"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text=" * Mask: The caregiver should wear a triple layer medical mask. N95 mask may be considered when in the same room with the ill person.\n\n
+ * Hand hygiene: Hand hygiene must be ensured following contact with ill person or patient’s immediate environment.\n\n
+ * Exposure to patient/patient’s environment: Avoid direct contact with body fluids of the patient, particularly oral or respiratory secretions. Use disposable gloves while handling the patient. Perform hand hygiene before and after removing gloves.\n\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text="       Medical treatments."
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" * Treatment for patients with mild/asymptomatic disease in home isolation\n\n
+ * Patients must be in communication with a treating physician and promptly report in case of any worsening.\n\n
+ * Continue the medications for other co-morbid illness after consulting the treating physician.\n\n
+ * Patients to follow symptomatic management for fever, running nose and cough, as warranted.\n\n
+ * Patients may perform warm water gargles or take steam inhalation twice a day.\n\n
+ * When to seek immediate medical attention:\n\n
+ * Difficulty in breathing\n\n
+ * Dip in oxygen saturation (SpO2 94% on room air)\n\n
+ * Persistent pain/pressure in the chest\n\n
+ * Mental confusion or inability to arouse\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

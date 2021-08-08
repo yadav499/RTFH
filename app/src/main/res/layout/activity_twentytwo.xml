@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".twentytwo_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@android:color/holo_blue_bright">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text=" Psychotherapy"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/holo_blue_bright"
+                android:text="Psychotherapy, also known as psychological therapy or talk therapy, can
+be an effective treatment for people with MDD. It involves meeting with a
+therapist on a regular basis to talk about your condition and related issues.\n\n
+Psychotherapy can help you:\n\n
+• adjust to a crisis or other stressful event\n
+• replace negative beliefs and behaviors with positive, healthy ones\n
+• improve your communication skills\n
+• find better ways to cope with challenges and solve problems• increase your self-esteem\n
+• regain a sense of satisfaction and control in your life\n\n
+Your healthcare provider may also recommend other types of therapy, such
+as cognitive behavioral therapy or interpersonal therapy. If you don’t
+already have a healthcare provider, the Healthline FindCare tool can help
+you find a physician in your area.\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Another possible treatment is group therapy, which allows you to share
+your feelings with people who can relate to what you’re going through.\n\n
+Lifestyle changes\n\n
+In addition to taking medications and participating in therapy, you can help
+improve MDD symptoms by making some changes to your daily habits.\n\n
+Eat right\n\n
+Nutritious foods benefit your mind and body, and while no foods can cure
+depression, certain healthy food choices can benefit your mental well being.\n\n
+"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:background="@android:color/holo_orange_dark"
+                android:text="Consider eating foods:\n\n
+"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/holo_blue_bright"
+                android:text="• containing omega-3 fatty acids, such as salmon\n
+• rich in B vitamins, such as beans and whole grains\n
+• with magnesium, which is found in nuts, seeds, and yogurt\n\n
+Avoid alcohol and certain processed foods\n\n
+It’s beneficial to avoid alcohol, as it’s a nervous system depressant that can
+make your symptoms worse.\n
+Also, certain refined, processed, and deep-fried foods contain omega-6
+fatty acids, which may contribute to MDD.\n\n
+Get plenty of exercise\n\n
+Although MDD can make you feel very tired, it’s important to be physically
+active. Exercising, especially outdoors and in moderate sunlight, can boost
+your mood and make you feel better.\n\n
+Sleep well\n\n
+It’s vital to get enough sleep per night, which can vary from person to
+person but typically ranges between 7–9 hours.\n\n
+People with depression often have trouble with sleeping. Speak to a doctor
+if you’re having trouble sleeping or oversleeping.\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:text="If you feel any of its symptoms , you can contact on below number:-"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv4" />
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25sp"
+                android:text="Call"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@id/tv7" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="193dp"
+                android:layout_height="148dp"
+                app:srcCompat="@drawable/doctors"
+                android:paddingLeft="5dp"
+             app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv5"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Happy Mind Neuro Psychiatry and De-Addiction Clinic, R K Avenue Road, Rajendranagar, Patna - 800016, Near Khetan Lab, Opposite Maila Tank"
+              app:layout_constraintTop_toBottomOf="@id/tv5"
+                app:layout_constraintLeft_toRightOf="@id/img"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7947471323"
+             app:layout_constraintTop_toBottomOf="@id/img"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tenth_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@android:color/holo_orange_light"
+                android:text=" post traumatic stress disorder(PTSD)"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text="Here are some examples of these four types of symptom:\n\n
+Intrusion symptoms:\n\n
+• nightmares\n
+• flashbacks and a sensation that the event is happening again\n
+• fearful thoughts\n\n
+Avoidance symptoms:\n\n
+• refusing to discuss the event\n
+• avoiding situations that remind the person of the event\n\n
+Arousal and reactivity symptoms:\n\n
+• difficulty sleeping\n
+• irritability and angry outbursts\n
+• hypersensitivity to possible dangers\n
+• feeling tense and anxious\n\n
+Symptoms that affect mood and thinking:\n\n
+• inability to remember some aspects of the event\n
+• feelings of guilt and blame\n
+• feeling detached and estranged from others and emotionally and
+mentally numbed\n
+• having a reduced interest in life\n
+• difficulty concentrating\n
+• mental health problems, such as depression, phobias, and anxiety\n\n
+In addition, the symptoms must lead to distress or difficulty coping with
+work or relationships, and they must not be due to the use of medication or
+other substances, or another health condition.\n\n
+Physical symptoms\n\n
+There may also be physical symptoms, but these are not included in the
+DSM-5 criteria:\n\n
+• physical effects include sweating, shaking, headaches, dizziness,
+stomach problems, aches and pains, and chest pain\n
+• a weakened immune system can lead to more frequent infections\n
+• sleep disturbances can result in tiredness and other problems\n\n
+There may be long-term behavioral changes that contribute to problems
+and work and a breakdown in relationships. The person may start to
+consume more alcohol than previously, or to misuse drugs or medications.\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text=" Treatment"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text=" Treatment usually involves psychotherapy and counseling, medication, or a
+combination.\n\n
+Options for psychotherapy will be specially tailored for managing trauma.\n\n
+They include:\n\n
+Cognitive processing therapy (CPT): Also known as cognitive
+restructuring, the individual learns how to think about things in a new way.
+Mental imagery of the traumatic event may help them work through the
+trauma, to gain control of the fear and distress.\n\n
+Exposure therapy: Talking repeatedly about the event or confronting the
+cause of the fear in a safe and controlled environment may help the person
+feel they have more control over their thoughts and feelings. The
+effectiveness of this treatment has been questioned, however, and it must
+be carried out with care, or there may be a risk of worsening of the
+symptoms.\n\n"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Medicine"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv4" />
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Some medications can be used to treat the symptoms of PTSD.\n\n
+Selective serotonin reuptake inhibitors (SSRIs), such as paroxetine, are
+commonly used. SSRIs also help treat depression, anxiety and sleep
+problems, symptoms that are often linked to PTSD. There have been some
+reports that antidepressant medications can cause an increased risk of
+suicide in individuals under the age of 24.\n\n
+Sometimes, benzodiazepines may be used to treat irritability, insomnia,
+and anxiety. However, the National Center for PTSD do not
+recommend these, because they do not treat the core symptoms and they
+can lead to dependency.\n\n
+Experimental therapies\n\n
+Research has suggested that the following therapies may help, but further
+evidence is needed to confirm their safety and effectiveness.\n\n
+Eye movement desensitization and reprocessing (EMDR): Recalling the
+event while making a specific kind of side-to-side eye movement may help
+lower distress levels for people with PTSD. This allows the individual to
+have more positive emotions, behaviors, and thoughts.\n\n
+MDMA: The pharmaceutical version of the recreational drug, ecstasy, may
+help people learn to deal with their memories more effectively by
+encouraging a feeling of safety. Scientists are currently researching this
+option.\n\n
+Cortisone hormone therapy: One study has suggested that high-dose
+cortisol-based treatments could help reduce the risk of PTSD, if given soon
+after a trauma occurs.\n\n
+Computer games: Playing some computer games has been linkedTrusted
+Source with fewer symptoms in some veterans with PTSD, according to a study published in 2017. However, the researchers do not recommend
+using computer games instead of regular therapy.\n\n
+
+"
+                android:textColor="@color/black"
+
+                android:textSize="27dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv5"/>
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="Common side effects of methylphenidate include:\n\n
+• a small increase in blood pressure and heart rate\n
+• loss of appetite, which can lead to weight loss or poor weight gain\n
+• trouble sleeping\n
+• headaches\n
+• stomach aches\n
+• mood swings\n\n
+Lisdexamfetamine\n\n
+Lisdexamfetamine is a medicine that stimulates certain parts of the brain. It improves
+concentration, helps focus attention and reduces impulsive behaviour.\n\n
+It may be offered to teenagers and children over the age of 5 with ADHD if at least 6 weeks
+of treatment with methylphenidate has not helped. Adults may be offered lisdexamfetamine
+as the first-choice medicine instead of methylphenidate.\n\n
+Lisdexamfetamine comes in capsule form, taken once a day.\n\n"
+                app:layout_constraintTop_toBottomOf="@id/tv6"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Common side effects of lisdexamfetamine include:\n\n
+• decreased appetite, which can lead to weight loss or poor weight gain\n
+• aggression\n
+• drowsiness\n
+• dizziness\n
+• headaches\n
+• diarrhoea\n
+• nausea and vomiting\n\n
+Dexamfetamine\n\n
+Dexamfetamine is similar to lisdexamfetamine and works in the same way. It may be offered
+to adults, teenagers and children over the age of 5 with ADHD.\n\n
+Dexamfetamine is usually taken as a tablet once or twice a day, although an oral solution is
+also available.\n\n
+Common side effects of dexamfetamine include:\n\n
+• decreased appetite\n
+• mood swings\n
+• agitation and aggression\n
+• dizziness\n
+• headaches\n
+• diarrhoea\n
+• nausea and vomiting\n\n
+Atomoxetine\n\n
+Atomoxetine works differently from other ADHD medicines.\n\n
+It's a selective noradrenaline reuptake inhibitor (SNRI), which means it increases the amount
+of a chemical in the brain called noradrenaline.\n\n
+This chemical passes messages between brain cells, and increasing it can aid concentration
+and help control impulses.\n\n
+Atomoxetine may be offered to adults, teenagers and children over the age of 5 if it's not
+possible to use methylphenidate or lisdexamfetamine. It's also licensed for use in adults if
+symptoms of ADHD are confirmed.\n\n
+Atomoxetine comes in capsule form, usually taken once or twice a day.\n\n
+Common side effects of atomoxetine include:\n\n
+• a small increase in blood pressure and heart rate\n
+• nausea and vomiting\n
+• stomach aches\n
+• trouble sleeping\n
+• dizziness\n
+• headaches\n
+• irritability\n
+Atomoxetine has also been linked to some more serious side effects that are important to look
+out for, including suicidal thoughts and liver damage.\n\n
+If either you or your child begin to feel depressed or suicidal while taking this medicine,
+speak to your doctor.\n\n
+Guanfacine\n\n
+Guanfacine acts on part of the brain to improve attention, and it also reduces blood pressure.\n\n
+It may be offered to teenagers and children over the age of 5 if it's not possible to use
+methylphenidate or lisdexamfetamine. Guanfacine should not be offered to adults with
+ADHD.\n\n
+Guanfacine is usually taken as a tablet once a day, in the morning or evening.\n\n
+Common side effects include:\n\n
+• tiredness or fatigue\n
+• headache\n
+• abdominal pain\n
+• dry mouth\n\n"
+                app:layout_constraintTop_toBottomOf="@id/tv7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                app:layout_constraintTop_toBottomOf="@id/tv8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="26dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

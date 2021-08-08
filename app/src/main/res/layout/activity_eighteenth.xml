@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tenth_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@android:color/holo_orange_light"
+                android:text=" ADHD(Attention deficit hyperactivity disorder)"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text=" • Often being late or forgetting things\n
+• Anxiety\n
+• Low self-esteem\n
+• Problems at work\n
+• Trouble controlling anger\n
+• Impulsiveness\n
+• Substance misuse or addiction\n
+• Trouble staying organized\n
+• Procrastination\n
+• Easily frustrated• Often bored\n
+• Trouble concentrating when reading\n
+• Mood swings\n
+• Depression\n
+• Relationship problems\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text=" Treatment"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text=" Medicine"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text="There are 5 types of medicine licensed for the treatment of ADHD:\n\n
+• methylphenidate\n
+• lisdexamfetamine\n
+• dexamfetamine\n
+• atomoxetine\n
+• guanfacine\n\n
+These medicines are not a permanent cure for ADHD but may help someone with the
+condition concentrate better, be less impulsive, feel calmer, and learn and practise new skills.\n\n
+Some medicines need to be taken every day, but some can be taken just on school days.
+Treatment breaks are occasionally recommended to assess whether the medicine is still
+needed.\n\n
+If you were not diagnosed with ADHD until adulthood, a GP and specialist can discuss which
+medicines and therapies are suitable for you.\n\n
+If you or your child is prescribed one of these medicines, you'll probably be given small
+doses at first, which may then be gradually increased. You or your child will need to see a GP
+for regular check-ups to ensure the treatment is working effectively and check for signs of
+any side effects or problems.\n\n
+It's important to let the GP know about any side effects and talk to them if you feel you need
+to stop or change treatment.\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv4" />
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your specialist will discuss how long you should take your treatment but, in many cases,
+treatment is continued for as long as it is helping.\n\n
+Methylphenidate\n\n
+Methylphenidate is the most commonly used medicine for ADHD. It belongs to a group of
+medicines called stimulants, which work by increasing activity in the brain, particularly in
+areas that play a part in controlling attention and behaviour.\n\n
+Methylphenidate may be offered to adults, teenagers and children over the age of 5 with
+ADHD.\n\n
+The medicine can be taken as either immediate-release tablets (small doses taken 2 to 3 times
+a day) or as modified-release tablets (taken once a day in the morning, with the dose released
+throughout the day).\n\n"
+                android:textColor="@color/black"
+
+                android:textSize="27dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv5"/>
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="Common side effects of methylphenidate include:\n\n
+• a small increase in blood pressure and heart rate\n
+• loss of appetite, which can lead to weight loss or poor weight gain\n
+• trouble sleeping\n
+• headaches\n
+• stomach aches\n
+• mood swings\n\n
+Lisdexamfetamine\n\n
+Lisdexamfetamine is a medicine that stimulates certain parts of the brain. It improves
+concentration, helps focus attention and reduces impulsive behaviour.\n\n
+It may be offered to teenagers and children over the age of 5 with ADHD if at least 6 weeks
+of treatment with methylphenidate has not helped. Adults may be offered lisdexamfetamine
+as the first-choice medicine instead of methylphenidate.\n\n
+Lisdexamfetamine comes in capsule form, taken once a day.\n\n"
+                app:layout_constraintTop_toBottomOf="@id/tv6"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Common side effects of lisdexamfetamine include:\n\n
+• decreased appetite, which can lead to weight loss or poor weight gain\n
+• aggression\n
+• drowsiness\n
+• dizziness\n
+• headaches\n
+• diarrhoea\n
+• nausea and vomiting\n\n
+Dexamfetamine\n\n
+Dexamfetamine is similar to lisdexamfetamine and works in the same way. It may be offered
+to adults, teenagers and children over the age of 5 with ADHD.\n\n
+Dexamfetamine is usually taken as a tablet once or twice a day, although an oral solution is
+also available.\n\n
+Common side effects of dexamfetamine include:\n\n
+• decreased appetite\n
+• mood swings\n
+• agitation and aggression\n
+• dizziness\n
+• headaches\n
+• diarrhoea\n
+• nausea and vomiting\n\n
+Atomoxetine\n\n
+Atomoxetine works differently from other ADHD medicines.\n\n
+It's a selective noradrenaline reuptake inhibitor (SNRI), which means it increases the amount
+of a chemical in the brain called noradrenaline.\n\n
+This chemical passes messages between brain cells, and increasing it can aid concentration
+and help control impulses.\n\n
+Atomoxetine may be offered to adults, teenagers and children over the age of 5 if it's not
+possible to use methylphenidate or lisdexamfetamine. It's also licensed for use in adults if
+symptoms of ADHD are confirmed.\n\n
+Atomoxetine comes in capsule form, usually taken once or twice a day.\n\n
+Common side effects of atomoxetine include:\n\n
+• a small increase in blood pressure and heart rate\n
+• nausea and vomiting\n
+• stomach aches\n
+• trouble sleeping\n
+• dizziness\n
+• headaches\n
+• irritability\n
+Atomoxetine has also been linked to some more serious side effects that are important to look
+out for, including suicidal thoughts and liver damage.\n\n
+If either you or your child begin to feel depressed or suicidal while taking this medicine,
+speak to your doctor.\n\n
+Guanfacine\n\n
+Guanfacine acts on part of the brain to improve attention, and it also reduces blood pressure.\n\n
+It may be offered to teenagers and children over the age of 5 if it's not possible to use
+methylphenidate or lisdexamfetamine. Guanfacine should not be offered to adults with
+ADHD.\n\n
+Guanfacine is usually taken as a tablet once a day, in the morning or evening.\n\n
+Common side effects include:\n\n
+• tiredness or fatigue\n
+• headache\n
+• abdominal pain\n
+• dry mouth\n\n"
+                app:layout_constraintTop_toBottomOf="@id/tv7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                app:layout_constraintTop_toBottomOf="@id/tv8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="26dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

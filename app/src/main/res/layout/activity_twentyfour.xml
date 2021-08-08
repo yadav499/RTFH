@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".twentythree_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@android:color/holo_blue_bright">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Self-help tips\n"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/white"
+                android:text="Active coping is a key part of recovery. It enables a person to accept the
+impact of the event they have experienced, and take action to improve their
+situation.\n\n
+The following can help achieve this:\n\n
+• learning about PTSD and understanding that an ongoing response is
+normal and that recovery takes time\n
+• accepting that healing does not necessarily mean forgetting, but
+gradually feeling less bothered by the symptoms and having
+confidence in the ability to cope with the bad memories\n\n
+Other things that can help include:\n\n
+• finding someone to confide in\n
+• spending time with other people who know what has happened\n
+• letting people know what might trigger symptoms\n
+• breaking down tasks into smaller parts, to make them easier to
+prioritize and complete\n
+• doing some physical exercise, such as swimming, walking, or yoga\n
+• practicing relaxation, breathing, or meditation techniques\n
+• listening to quiet music or spending time in nature\n
+• understanding that it will take time for symptoms to go away\n
+• accepting that PTSD is not a sign of weakness but can happen to
+anyone\n
+• participating in enjoyable activities that can provide distraction\n\n"
+
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:text="If you feel any of its symptoms , you can contact on below number:-"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:text="Call"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@id/tv7" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="193dp"
+                android:layout_height="148dp"
+                android:paddingLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv5"
+                app:srcCompat="@drawable/doctors" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Happy Mind Neuro Psychiatry and De-Addiction Clinic, R K Avenue Road, Rajendranagar, Patna - 800016, Near Khetan Lab, Opposite Maila Tank"
+                android:textColor="@color/black"
+                app:layout_constraintLeft_toRightOf="@id/img"
+                app:layout_constraintTop_toBottomOf="@id/tv5" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="7947471323"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/img" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

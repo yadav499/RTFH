@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yogendr"
+    tools:context=".six_activity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/colorMultiSelectHighlight"
+        android:text="Activities"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/rounded_edittext"
+
+        android:backgroundTint="@color/white"
+        android:text="Crossfit"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:text="Yoga"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/img5"
+        app:layout_constraintTop_toBottomOf="@id/btn5" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+
+        android:background="@drawable/rounded_edittext"
+        android:text="Stretching"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toRightOf="@id/btn1"
+        app:layout_constraintTop_toBottomOf="@id/img2" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/rounded_edittext"
+        android:text="Abs Workout"
+        android:textSize="20sp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img4"
+
+        />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="183dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="08dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        app:srcCompat="@drawable/croses" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="161dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="08dp"
+        app:layout_constraintLeft_toRightOf="@id/img1"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        app:srcCompat="@drawable/bodystretch" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="208dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="08dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn1"
+        app:srcCompat="@drawable/pullbody" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="175dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@id/img3"
+        app:layout_constraintTop_toBottomOf="@id/btn4"
+        app:srcCompat="@drawable/absworkout" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="195dp"
+        android:layout_height="172dp"
+        android:layout_marginLeft="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img3"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/yogalogo"
+        tools:layout_editor_absoluteY="514dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

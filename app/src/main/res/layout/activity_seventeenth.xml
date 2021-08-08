@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tenth_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_light"
+                android:text=" Clinical Depression"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text=" • Fatigue or loss of energy almost every day\n
+• Feelings of worthlessness or guilt almost every day\n
+• Impaired concentration, indecisiveness\n
+• Insomnia or hypersomnia (excessive sleeping) almost every day\n
+• Markedly diminished interest or pleasure in almost all activities nearly every day
+(called anhedonia, this symptom can be indicated by reports from significant others)\n
+• Restlessness or feeling slowed down\n
+• Recurring thoughts of death or suicide\n
+• Significant weight loss or gain (a change of more than 5% of body weight in a month)\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text=" Treatment"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:text=" Medications"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Primary care providers often start treatment for MDD by
+prescribing antidepressant medications.\n\n
+Selective serotonin reuptake inhibitors (SSRIs)\n\n
+SSRIs are a frequently prescribed type of antidepressant. SSRIs work by
+helping inhibit the breakdown of serotonin in the brain, resulting in higher
+amounts of this neurotransmitter.\n\n
+Serotonin is a brain chemical that’s believed to be responsible for mood. It
+may help improve mood and produce healthy sleeping patterns.\n\n
+People with MDD are often thought to have low levels of serotonin. An
+SSRI can relieve symptoms of MDD by increasing the amount of available
+serotonin in the brain.\n\n
+SSRIs include well-known drugs such as fluoxetine (Prozac)
+and citalopram (Celexa). They have a relatively low incidence of side
+effects that most people tolerate well.\n\n
+Similar to SSRIs, serotonin-norepinephrine reuptake inhibitors (SNRIs) are
+another type of antidepressant often prescribed. These affect serotonin
+and norepinephrine.\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv4" />
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other medications"
+                android:textColor="@color/black"
+
+                android:textSize="27dp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv5"/>
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="Tricyclic antidepressants and medications known as atypical
+antidepressants, such as bupropion (Wellbutrin), may be used when other
+drugs haven’t helped.\n\n
+These drugs can cause several side effects, including weight gain and
+sleepiness. As with any medication, benefits and side effects need to be
+weighed carefully with your doctor.\n\n
+Some medications used to treat MDD aren’t safe while pregnant or
+breastfeeding. Make sure you speak to a healthcare provider if you become
+pregnant, you’re planning to become pregnant, or you’re breastfeeding"
+                app:layout_constraintTop_toBottomOf="@id/tv6"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+               app:layout_constraintTop_toBottomOf="@id/tv7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="26dp"
+                 />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

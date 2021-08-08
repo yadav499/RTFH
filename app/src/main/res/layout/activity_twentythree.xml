@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".twentythree_activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@android:color/holo_blue_bright">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Therapy"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/holo_blue_bright"
+                android:text="As well as taking medicine, different therapies can be useful in treating ADHD in children,
+teenagers and adults. Therapy is also effective in treating additional problems, such as
+conduct or anxiety disorders, that may appear with ADHD.\n\n
+Some of the therapies that may be used are outlined below.\n\n
+Psychoeducation\n\n
+Psychoeducation means you or your child will be encouraged to discuss ADHD and its
+effects. It can help children, teenagers and adults make sense of being diagnosed with
+ADHD, and can help you to cope and live with the condition.\n\n
+Behaviour therapy\n\n
+Behaviour therapy provides support for carers of children with ADHD and may involve
+teachers as well as parents. Behaviour therapy usually involves behaviour management,
+which uses a system of rewards to encourage your child to try to control their ADHD.\n\n
+If your child has ADHD, you can identify types of behaviour you want to encourage, such as
+sitting at the table to eat. Your child is then given some sort of small reward for good
+behaviour and has a privilege removed for poor behaviour.\n\n
+For teachers, behaviour management involves learning how to plan and structure activities,
+and to praise and encourage children for even very small amounts of progress.\n\n
+Parent training and education programmes\n\n
+If your child has ADHD, specially tailored parent training and education programmes can
+help you learn specific ways of talking to your child, and playing and working with them to
+improve their attention and behaviour.\n\n
+You may also be offered parent training before your child is formally diagnosed with ADHD.\n\n
+These programmes are usually arranged in groups of around 10 to 12 parents. A programme
+usually consists of 10 to 16 meetings, lasting up to 2 hours each.\n\n
+Being offered a parent training and education programme does not mean you have been a bad
+parent – it aims to teach parents and carers about behaviour management, while increasing
+confidence in your ability to help your child and improve your relationship.\n\n
+Social skills training\n\n
+Social skills training involves your child taking part in role-play situations and aims to teach
+them how to behave in social situations by learning how their behaviour affects others.\n\n
+Cognitive behavioural therapy (CBT)\n\n
+CBT is a talking therapy that can help you manage your problems by changing the way you
+think and behave. A therapist would try to change how your child feels about a situation,
+which would in turn potentially change their behaviour.\n\n
+CBT can be carried out with a therapist individually or in a group.\n\n
+Other possible treatments\n\n
+There are other ways of treating ADHD that some people with the condition find helpful,
+such as cutting out certain foods and taking supplements. However, there's no strong
+evidence these work, and they should not be attempted without medical advice.\n\n
+Diet\n\n
+People with ADHD should eat a healthy, balanced diet. Do not cut out foods before seeking
+medical advice.\n\n
+Some people may notice a link between types of food and worsening ADHD symptoms. If
+this is the case, keep a diary of what you eat and drink, and what behaviour follows. Discuss
+this with your GP, who may refer you to a dietitian (a healthcare professional who specialises
+in nutrition).\n\n
+Supplements\n\n
+Some studies have suggested that supplements of omega-3 and omega-6 fatty acids may be
+beneficial for people with ADHD, although the evidence supporting this is very limited.\n\n
+It's advisable to talk to your GP before using any supplements, because some can react
+unpredictably with medicine or make it less effective.\n\n
+You should also remember that some supplements should not be taken long term, as they can
+reach dangerous levels in your body.\n\n"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv" />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:text="If you feel any of its symptoms , you can contact on below number:-"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:text="Call"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@id/tv7" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="193dp"
+                android:layout_height="148dp"
+                android:paddingLeft="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv5"
+                app:srcCompat="@drawable/doctors" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Happy Mind Neuro Psychiatry and De-Addiction Clinic, R K Avenue Road, Rajendranagar, Patna - 800016, Near Khetan Lab, Opposite Maila Tank"
+                android:textColor="@color/black"
+                app:layout_constraintLeft_toRightOf="@id/img"
+                app:layout_constraintTop_toBottomOf="@id/tv5" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="7947471323"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/img" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

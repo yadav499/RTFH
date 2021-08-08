@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hem">
+        <activity
+            android:name=".twentyfour_activity"
+            android:exported="true" />
+        <activity
+            android:name=".twentythree_activity"
+            android:exported="true" />
+        <activity
+            android:name=".twentytwo_activity"
+            android:exported="true" />
+        <activity
+            android:name=".twentyone_activity"
+            android:exported="true" />
+        <activity
+            android:name=".twenty_activity"
+            android:exported="true" />
+        <activity
+            android:name=".twenteeth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".ninteenth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".eighteenth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".seventeenth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sixteenth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".fifteen_activity"
+            android:exported="true" />
+        <activity
+            android:name=".fourteen_activity"
+            android:exported="true" />
+        <activity
+            android:name=".thirteen_activity"
+            android:exported="true" />
+        <activity
+            android:name=".twelvth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".eleventh_activity"
+            android:exported="true" />
+        <activity
+            android:name=".tenth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".nine_activity"
+            android:exported="true" />
+        <activity
+            android:name=".eight_activity"
+            android:exported="true" />
+        <activity
+            android:name=".seven_activity"
+            android:exported="true" />
+        <activity
+            android:name=".six_activity"
+            android:exported="true" />
+        <activity
+            android:name=".fifth_acitivity"
+            android:exported="true" />
+        <activity
+            android:name=".Fourth_activity"
+            android:exported="true" />
+        <activity
+            android:name=".Third_activity"
+            android:exported="true" />
+        <activity
+            android:name=".Register2_activity"
+            android:exported="true" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
