@@ -27,9 +27,6 @@
             android:name=".twenty_activity"
             android:exported="true" />
         <activity
-            android:name=".twenteeth_activity"
-            android:exported="true" />
-        <activity
             android:name=".ninteenth_activity"
             android:exported="true" />
         <activity

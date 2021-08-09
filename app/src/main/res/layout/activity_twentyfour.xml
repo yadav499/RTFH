@@ -24,14 +24,15 @@
                 android:id="@+id/tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:background="@android:color/holo_orange_dark"
+                android:background="@android:color/holo_green_dark"
                 android:text="Self-help tips\n"
                 android:textColor="@color/black"
                 android:textSize="35sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -40,7 +41,7 @@
                 android:layout_height="wrap_content"
 
 
-                android:background="@android:color/white"
+                android:background="@android:color/holo_blue_bright"
                 android:text="Active coping is a key part of recovery. It enables a person to accept the
 impact of the event they have experienced, and take action to improve their
 situation.\n\n

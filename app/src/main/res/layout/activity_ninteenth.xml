@@ -10,7 +10,10 @@
         android:id="@+id/nested_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:background="@android:color/holo_green_light"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -21,7 +24,6 @@
                 android:id="@+id/tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
                 android:background="@android:color/holo_orange_light"
                 android:text=" post traumatic stress disorder(PTSD)"
                 android:textColor="@color/black"
@@ -34,8 +36,6 @@
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="20dp"
                 android:background="@android:color/holo_orange_dark"
                 android:text="Symptoms"
                 android:textColor="@color/black"
@@ -48,7 +48,7 @@
                 android:id="@+id/tv2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+
                 android:background="@android:color/holo_green_light"
                 android:text="Here are some examples of these four types of symptom:\n\n
 Intrusion symptoms:\n\n
@@ -86,7 +86,7 @@ and work and a breakdown in relationships. The person may start to
 consume more alcohol than previously, or to misuse drugs or medications.\n\n"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textStyle="italic"
+                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv1" />
 
@@ -94,7 +94,7 @@ consume more alcohol than previously, or to misuse drugs or medications.\n\n"
                 android:id="@+id/tv3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+
                 android:background="@android:color/holo_orange_dark"
                 android:text=" Treatment"
                 android:textColor="@color/black"
@@ -107,7 +107,7 @@ consume more alcohol than previously, or to misuse drugs or medications.\n\n"
                 android:id="@+id/tv4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+
                 android:background="@android:color/holo_green_light"
                 android:text=" Treatment usually involves psychotherapy and counseling, medication, or a
 combination.\n\n
@@ -131,19 +131,21 @@ symptoms.\n\n"
 
             <TextView
                 android:id="@+id/tv5"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_blue_bright"
                 android:text="Medicine"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textStyle="italic"
+                android:textStyle="bold"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv4" />
+
             <TextView
                 android:id="@+id/tv6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
                 android:text="Some medications can be used to treat the symptoms of PTSD.\n\n
 Selective serotonin reuptake inhibitors (SSRIs), such as paroxetine, are
 commonly used. SSRIs also help treat depression, anxiety and sleep
@@ -173,19 +175,18 @@ Source with fewer symptoms in some veterans with PTSD, according to a study publ
 using computer games instead of regular therapy.\n\n
 
 "
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="27dp"
-                android:textStyle="italic"
+                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv5"/>
+                app:layout_constraintTop_toBottomOf="@id/tv5" />
+
             <TextView
                 android:id="@+id/tv7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:textStyle="italic"
-                android:textColor="@color/black"
+                android:background="@android:color/holo_green_light"
                 android:text="Common side effects of methylphenidate include:\n\n
 • a small increase in blood pressure and heart rate\n
 • loss of appetite, which can lead to weight loss or poor weight gain\n
@@ -200,12 +201,17 @@ It may be offered to teenagers and children over the age of 5 with ADHD if at le
 of treatment with methylphenidate has not helped. Adults may be offered lisdexamfetamine
 as the first-choice medicine instead of methylphenidate.\n\n
 Lisdexamfetamine comes in capsule form, taken once a day.\n\n"
-                app:layout_constraintTop_toBottomOf="@id/tv6"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv6" />
+
             <TextView
                 android:id="@+id/tv8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
                 android:text="Common side effects of lisdexamfetamine include:\n\n
 • decreased appetite, which can lead to weight loss or poor weight gain\n
 • aggression\n
@@ -260,21 +266,20 @@ Common side effects include:\n\n
 • headache\n
 • abdominal pain\n
 • dry mouth\n\n"
-                app:layout_constraintTop_toBottomOf="@id/tv7"
-                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textColor="@color/black"/>
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv7" />
 
             <Button
                 android:id="@+id/btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
                 android:text="Next"
-                app:layout_constraintTop_toBottomOf="@id/tv8"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                android:layout_marginTop="26dp"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tv8" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>

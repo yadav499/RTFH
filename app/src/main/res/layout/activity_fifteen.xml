@@ -21,7 +21,7 @@
                 android:id="@+id/tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+
                 android:background="@android:color/holo_orange_light"
                 android:text=" Self-care"
                 android:textColor="@color/black"
@@ -34,8 +34,7 @@
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="20dp"
+
                 android:background="@android:color/holo_orange_dark"
                 android:text="  * Isolate yourself in a well ventilated room.\n\n
  * Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.\n\n
@@ -59,7 +58,7 @@
                 android:id="@+id/tv2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+
                 android:background="@android:color/holo_green_light"
                 android:text="  Instructions for caregivers:"
                 android:textColor="@color/black"
@@ -72,7 +71,7 @@
                 android:id="@+id/tv3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+
                 android:background="@android:color/holo_orange_dark"
                 android:text=" * Mask: The caregiver should wear a triple layer medical mask. N95 mask may be considered when in the same room with the ill person.\n\n
  * Hand hygiene: Hand hygiene must be ensured following contact with ill person or patient’s immediate environment.\n\n
@@ -87,7 +86,7 @@
                 android:id="@+id/tv4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+
                 android:background="@android:color/holo_green_light"
                 android:text="       Medical treatments."
             android:textColor="@color/black"

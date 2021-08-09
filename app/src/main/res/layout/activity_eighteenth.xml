@@ -10,18 +10,21 @@
         android:id="@+id/nested_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:background="@android:color/holo_blue_bright"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/white">
+            android:background="@android:color/holo_blue_bright">
 
             <TextView
                 android:id="@+id/tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
+
                 android:background="@android:color/holo_orange_light"
                 android:text=" ADHD(Attention deficit hyperactivity disorder)"
                 android:textColor="@color/black"
@@ -34,8 +37,8 @@
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="20dp"
+
+
                 android:background="@android:color/holo_orange_dark"
                 android:text="Symptoms"
                 android:textColor="@color/black"
@@ -48,8 +51,8 @@
                 android:id="@+id/tv2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/holo_green_light"
+
+                android:background="@android:color/holo_blue_light"
                 android:text=" • Often being late or forgetting things\n
 • Anxiety\n
 • Low self-esteem\n
@@ -74,7 +77,7 @@
                 android:id="@+id/tv3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+
                 android:background="@android:color/holo_orange_dark"
                 android:text=" Treatment"
                 android:textColor="@color/black"
@@ -87,12 +90,12 @@
                 android:id="@+id/tv4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+
                 android:background="@android:color/holo_green_light"
                 android:text=" Medicine"
                 android:textColor="@color/black"
                 android:textSize="27sp"
-                android:textStyle="normal"
+                android:textStyle="bold"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv3" />
 
@@ -100,7 +103,7 @@
                 android:id="@+id/tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@android:color/holo_blue_bright"
+                android:background="@android:color/holo_blue_dark"
                 android:text="There are 5 types of medicine licensed for the treatment of ADHD:\n\n
 • methylphenidate\n
 • lisdexamfetamine\n
@@ -122,13 +125,15 @@ It's important to let the GP know about any side effects and talk to them if you
 to stop or change treatment.\n\n"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textStyle="italic"
+                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv4" />
+
             <TextView
                 android:id="@+id/tv6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/teal_200"
                 android:text="Your specialist will discuss how long you should take your treatment but, in many cases,
 treatment is continued for as long as it is helping.\n\n
 Methylphenidate\n\n
@@ -140,19 +145,18 @@ ADHD.\n\n
 The medicine can be taken as either immediate-release tablets (small doses taken 2 to 3 times
 a day) or as modified-release tablets (taken once a day in the morning, with the dose released
 throughout the day).\n\n"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="27dp"
-                android:textStyle="italic"
+                android:textStyle="normal"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv5"/>
+                app:layout_constraintTop_toBottomOf="@id/tv5" />
+
             <TextView
                 android:id="@+id/tv7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:textStyle="italic"
-                android:textColor="@color/black"
+                android:background="@android:color/holo_blue_bright"
                 android:text="Common side effects of methylphenidate include:\n\n
 • a small increase in blood pressure and heart rate\n
 • loss of appetite, which can lead to weight loss or poor weight gain\n
@@ -167,12 +171,17 @@ It may be offered to teenagers and children over the age of 5 with ADHD if at le
 of treatment with methylphenidate has not helped. Adults may be offered lisdexamfetamine
 as the first-choice medicine instead of methylphenidate.\n\n
 Lisdexamfetamine comes in capsule form, taken once a day.\n\n"
-                app:layout_constraintTop_toBottomOf="@id/tv6"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv6" />
+
             <TextView
                 android:id="@+id/tv8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
                 android:text="Common side effects of lisdexamfetamine include:\n\n
 • decreased appetite, which can lead to weight loss or poor weight gain\n
 • aggression\n
@@ -227,21 +236,20 @@ Common side effects include:\n\n
 • headache\n
 • abdominal pain\n
 • dry mouth\n\n"
-                app:layout_constraintTop_toBottomOf="@id/tv7"
-                app:layout_constraintLeft_toLeftOf="parent"
+                android:textColor="@color/black"
                 android:textSize="25sp"
-                android:textColor="@color/black"/>
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv7" />
 
             <Button
                 android:id="@+id/btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
                 android:text="Next"
-                app:layout_constraintTop_toBottomOf="@id/tv8"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                android:layout_marginTop="26dp"
-                />
+                app:layout_constraintTop_toBottomOf="@id/tv8" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
